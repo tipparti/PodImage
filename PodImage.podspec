@@ -20,7 +20,5 @@ Pod::Spec.new do |s|
   s.source_files  = "PodImage", "PodImage/**/*.{h,m}", "PodImage/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
 
-  s.dependency 'BaseUtils'
-
 end
 
