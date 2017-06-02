@@ -1,0 +1,12 @@
+PODS:
+  - BaseUtils (1.0.43)
+
+DEPENDENCIES:
+  - BaseUtils
+
+SPEC CHECKSUMS:
+  BaseUtils: 29a9756e46a62ea6409d0aa2bdc85befd22b3bf9
+
+PODFILE CHECKSUM: 07ebbbd29686b64e2b7f7c896e9089982f134abf
+
+COCOAPODS: 1.1.1
