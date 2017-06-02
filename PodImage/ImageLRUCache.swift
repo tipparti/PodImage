@@ -23,6 +23,10 @@ open class ImageLRUCache: LRUCache<String, UIImage> {
         return self.get(objForKey: key) as? ImageCacheEntry
     }
     
+    open func new(string: String) -> String? {
+        return string
+    }
+    
     open func get(imageForKey key: String) -> UIImage? {
         return self.get(objForKey: key)?.value
     }
